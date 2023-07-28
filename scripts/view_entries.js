@@ -1,4 +1,4 @@
-// view_entries_script.js
+// view_entries.js
 
 document.addEventListener("DOMContentLoaded", function () {
     const entriesList = document.getElementById("entriesList");
