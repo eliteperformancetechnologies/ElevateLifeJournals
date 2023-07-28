@@ -25,8 +25,15 @@
         </section>
 
         <section>
-            <h2>View Saved Entries</h2>
-            <a href="view_entries.html"><button>View Entries</button></a>
+            <h2>Your Entries</h2>
+            <div id="entriesDialog" class="dialog">
+                <span class="close" onclick="closeDialog()">&times;</span>
+                <h3 id="entriesTitle">Your Entries</h3>
+                <ul id="entriesList">
+                    <!-- Saved entries will be added dynamically through JavaScript -->
+                </ul>
+            </div>
+            <button id="viewEntriesButton" onclick="openDialog()">View Entries</button>
         </section>
     </main>
 
