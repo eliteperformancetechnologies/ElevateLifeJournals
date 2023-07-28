@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ElevateLife Journals</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>ElevateLife Journals</h1>
+        <div id="userSection">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Write Your Journal Entry</h2>
+            <form id="journalForm">
+                <label for="entryDate">Date:</label>
+                <input type="date" id="entryDate" required>
+                <textarea id="journalEntry" placeholder="Write your journal entry here..." required></textarea>
+                <button type="submit">Save Entry</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>View Saved Entries</h2>
+            <a href="view_entries.html"><button>View Entries</button></a>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
